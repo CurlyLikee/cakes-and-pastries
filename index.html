@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тортики &amp; Тістечка</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <input type="radio" name="dessert-filter" id="filter-all" class="filter-control" checked>
+  <input type="radio" name="dessert-filter" id="filter-pie" class="filter-control">
+  <input type="radio" name="dessert-filter" id="filter-roll" class="filter-control">
+  <input type="radio" name="dessert-filter" id="filter-cheesecake" class="filter-control">
+  <input type="radio" name="dessert-filter" id="filter-pastry" class="filter-control">
+  <input type="radio" name="dessert-filter" id="filter-cake" class="filter-control">
+
+  <div class="site-wrapper">
+
+    <header class="header">
+      <h1 class="header-title">Тортики <span class="amp">&amp;</span> Тістечка</h1>
+    </header>
+
+    <div class="main-layout">
+
+      <main class="gallery-container">
+        <section class="gallery-grid">
+
+          <article class="card" data-category="cake" data-calories="265">
+            <div class="card-body">
+              <div class="card-img-wrap">
+                <img src="img/cake_smetankovyi.png" alt="Торт Сметанковий" class="card-img">
+              </div>
+              <div class="card-title-area">
+                <span class="product-type">Торт:</span>
+                <span class="product-name">Сметанковий</span>
+              </div>
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-footer-area">
+              <span class="calories-info">Калорії у порції 265 кКал</span>
+            </div>
+          </article>
+
+          <article class="card" data-category="pastry" data-calories="305">
+            <div class="card-body">
+              <div class="card-img-wrap">
+                <img src="img/pastry_mafin.png" alt="Тістечко Мафін" class="card-img">
+              </div>
+              <div class="card-title-area">
+                <span class="product-type">Тістечко:</span>
+                <span class="product-name">Мафін</span>
+              </div>
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-footer-area">
+              <span class="calories-info">Калорії у порції 305 кКал</span>
+            </div>
+          </article>
+
+          <article class="card" data-category="cheesecake" data-calories="450">
+            <div class="card-body">
+              <div class="card-img-wrap">
+                <img src="img/cheesecake_yagody.png" alt="Сирники Три ягоди" class="card-img">
+              </div>
+              <div class="card-title-area">
+                <span class="product-type">Сирники:</span>
+                <span class="product-name">Три ягоди</span>
+              </div>
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-footer-area">
+              <span class="calories-info">Калорії у порції 450 кКал</span>
+            </div>
+          </article>
+
+          <article class="card" data-category="cake" data-calories="523">
+            <div class="card-body">
+              <div class="card-img-wrap">
+                <img src="img/cake_smachnyi.png" alt="Торт Смачний" class="card-img">
+              </div>
+              <div class="card-title-area">
+                <span class="product-type">Торт:</span>
+                <span class="product-name">Смачний</span>
+              </div>
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-footer-area">
+              <span class="calories-info">Калорії у порції 523 кКал</span>
+            </div>
+          </article>
+
+          <article class="card" data-category="roll" data-calories="380">
+            <div class="card-body">
+              <div class="card-img-wrap">
+                <img src="img/roll_sviatkovyi.png" alt="Рулет Святковий" class="card-img">
+              </div>
+              <div class="card-title-area">
+                <span class="product-type">Рулет:</span>
+                <span class="product-name">Святковий</span>
+              </div>
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-footer-area">
+              <span class="calories-info">Калорії у порції 380 кКал</span>
+            </div>
+          </article>
+
+          <article class="card" data-category="pie" data-calories="298">
+            <div class="card-body">
+              <div class="card-img-wrap">
+                <img src="img/pie_babusia.png" alt="Пиріг Свято у бабусі" class="card-img">
+              </div>
+              <div class="card-title-area">
+                <span class="product-type">Пиріг:</span>
+                <span class="product-name">Свято у бабусі</span>
+              </div>
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-footer-area">
+              <span class="calories-info">Калорії у порції 298 кКал</span>
+            </div>
+          </article>
+
+          <article class="card" data-category="cake" data-calories="600">
+            <div class="card-body">
+              <div class="card-img-wrap">
+                <img src="img/cake_vedmedyk.png" alt="Торт Ведмедик" class="card-img">
+              </div>
+              <div class="card-title-area">
+                <span class="product-type">Торт:</span>
+                <span class="product-name">Ведмедик</span>
+              </div>
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-footer-area">
+              <span class="calories-info">Калорії у порції 600 кКал</span>
+            </div>
+          </article>
+
+          <article class="card" data-category="pastry" data-calories="438">
+            <div class="card-body">
+              <div class="card-img-wrap">
+                <img src="img/pastry_kvity.png" alt="Тістечко Живі квіти" class="card-img">
+              </div>
+              <div class="card-title-area">
+                <span class="product-type">Тістечко:</span>
+                <span class="product-name">Живі квіти</span>
+              </div>
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-footer-area">
+              <span class="calories-info">Калорії у порції 438 кКал</span>
+            </div>
+          </article>
+
+          <article class="card" data-category="pastry" data-calories="348">
+            <div class="card-body">
+              <div class="card-img-wrap">
+                <img src="img/pastry_lymonne.png" alt="Тістечко Лимонне з маком" class="card-img">
+              </div>
+              <div class="card-title-area">
+                <span class="product-type">Тістечко:</span>
+                <span class="product-name">Лимонне з маком</span>
+              </div>
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-footer-area">
+              <span class="calories-info">Калорії у порції 348 кКал</span>
+            </div>
+          </article>
+
+        </section>
+      </main>
+
+      <aside class="filter-panel">
+
+        <div class="calories-widget">
+          <h3 class="calories-widget-title">Калорії у порції</h3>
+          <div class="dual-range-box">
+            <div class="range-track-bg"></div>
+            <div class="range-track-active" id="range-active"></div>
+            <input type="range" id="cal-min-slider" class="dual-slider slider-min" min="0" max="600" value="0" step="10" aria-label="Калорії від">
+            <input type="range" id="cal-max-slider" class="dual-slider slider-max" min="0" max="600" value="400" step="10" aria-label="Калорії до">
+          </div>
+          <div class="calories-label">Від <span id="val-min">0</span> до <span id="val-max">400</span> кКал</div>
+        </div>
+
+        <nav class="filter-buttons" aria-label="Фільтр смаколиків">
+          <label for="filter-pie" class="btn-filter btn-pie">Пиріг</label>
+          <label for="filter-pastry" class="btn-filter btn-pastry">Тістечко</label>
+          <label for="filter-roll" class="btn-filter btn-roll">Рулет</label>
+          <label for="filter-cake" class="btn-filter btn-cake">Торт</label>
+          <label for="filter-cheesecake" class="btn-filter btn-cheesecake">
+            <span class="label-singular">Сирник</span>
+            <span class="label-plural">Сирники</span>
+          </label>
+          <label for="filter-all" class="btn-filter btn-reset">Скинути фільтр</label>
+        </nav>
+
+      </aside>
+
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-contacts">
+        <span class="footer-contacts-heading">Контакти:</span>
+        <a href="mailto:tortik@smakota.ua" class="footer-email">
+          <svg class="icon-mail" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="m22 7-10 7L2 7"/>
+          </svg>
+          tortik@smakota.ua
+        </a>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2019 Smakota
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    const minSlider = document.getElementById('cal-min-slider');
+    const maxSlider = document.getElementById('cal-max-slider');
+    const minValSpan = document.getElementById('val-min');
+    const maxValSpan = document.getElementById('val-max');
+    const activeTrack = document.getElementById('range-active');
+    const resetBtn = document.querySelector('.btn-reset');
+
+    let hasUserFilteredCalories = false;
+
+    function updateDualRange(e) {
+      let minVal = parseInt(minSlider.value, 10);
+      let maxVal = parseInt(maxSlider.value, 10);
+
+      if (minVal > maxVal) {
+        if (e && e.target === minSlider) {
+          minSlider.value = maxVal;
+          minVal = maxVal;
+        } else {
+          maxSlider.value = minVal;
+          maxVal = minVal;
+        }
+      }
+
+      const totalRange = 600;
+      const leftPct = (minVal / totalRange) * 100;
+      const rightPct = 100 - (maxVal / totalRange) * 100;
+
+      if (activeTrack) {
+        activeTrack.style.left = leftPct + '%';
+        activeTrack.style.right = rightPct + '%';
+      }
+
+      if (minValSpan) minValSpan.textContent = minVal;
+      if (maxValSpan) maxValSpan.textContent = maxVal;
+
+      if (e) {
+        hasUserFilteredCalories = true;
+      }
+
+      if (hasUserFilteredCalories) {
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+          const cal = parseInt(card.getAttribute('data-calories'), 10);
+          if (cal < minVal || cal > maxVal) {
+            card.classList.add('calorie-hidden');
+          } else {
+            card.classList.remove('calorie-hidden');
+          }
+        });
+      }
+    }
+
+    if (minSlider && maxSlider) {
+      minSlider.addEventListener('input', updateDualRange);
+      maxSlider.addEventListener('input', updateDualRange);
+      updateDualRange(null);
+    }
+
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        hasUserFilteredCalories = false;
+        if (minSlider && maxSlider) {
+          minSlider.value = 0;
+          maxSlider.value = 400;
+          updateDualRange(null);
+        }
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => card.classList.remove('calorie-hidden'));
+      });
+    }
+  </script>
+
+</body>
+</html>
